@@ -1,9 +1,9 @@
 "use client"
 
-import { motion } from "motion/react"
+import { motion } from "framer-motion"
 import { useEffect, useState } from "react"
-import { AuroraBackground } from "@/components/ui/aurora-background"
-import { Navigation } from "@/components/navigation"
+import { AuroraBackground } from "../components/ui/aurora-background"
+import { Navigation } from "../components/navigation"
 
 export default function AuroraBackgroundDemo() {
   const [scrollProgress, setScrollProgress] = useState(0)

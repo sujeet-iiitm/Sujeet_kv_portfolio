@@ -21,6 +21,8 @@ export interface Projects {
   description: string
   image: string
   link: string
+  technologies : string[]
+  featured: Boolean
 }
 
 export interface NavigationItem {

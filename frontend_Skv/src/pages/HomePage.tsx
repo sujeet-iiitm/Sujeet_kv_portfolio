@@ -25,8 +25,7 @@ export function HomePage() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
-  // Add your Sketchfab model URL here
-  const sketchfabModelUrl = "/models/solar_system_animation.glb" // We'll add this when you provide the Sketchfab link
+  const sketchfabModelUrl = "/models/solar_system_animation.glb"
 
   return (
     <div className="relative">

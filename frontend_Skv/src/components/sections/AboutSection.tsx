@@ -16,7 +16,14 @@ export function AboutSection({ isVisible }: AboutSectionProps) {
     >
       <Card className="p-8 mb-16 text-left">
         <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 mb-16 text-left"> 
-  <h3 className="text-2xl md:text-3xl font-bold text-white mb-6 text-">About Me</h3>
+  <h3 className="text-2xl md:text-3xl font-bold text-white mb-6"
+  style={{
+        fontFamily: "'Bitcount Prop Single', system-ui",
+        fontWeight: 400,
+        fontVariationSettings: '"slnt" 0, "CRSV" 0.5, "ELSH" 0, "ELXP" 0',
+        letterSpacing: "-0.05em",
+        padding: "0.01em 0.005em",
+      }}>About Me</h3>
 
   <p className="text-neutral-300 text-lg leading-relaxed mb-4">
     Passionate about technology and driven by curiosity, I love building solutions that blend creativity with code. 

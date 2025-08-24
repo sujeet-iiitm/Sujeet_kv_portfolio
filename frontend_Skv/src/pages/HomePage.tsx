@@ -78,8 +78,6 @@ export function HomePage() {
         >
           <div className="container-max">
             <div className="text-center max-w-6xl">
-              <h2 className="text-4xl md:text-6xl font-bold text-white mb-8">My Projects</h2>
-              <p className="text-xl text-neutral-400 mb-12">Here are some of my recent works</p>
               <ProjectsSection isVisible={showMainContent} />
             </div>
           </div>

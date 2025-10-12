@@ -16,7 +16,7 @@ export const NAVIGATION_ITEMS: NavigationItem[] = [
   { id: "about", label: "About", href: "#about" },
   { id: "projects", label: "Projects", href: "#projects" },
   { id: "contact", label: "Contact Me", href: "#contact" },
-  { id: "resume", label: "Resume", href: "/RenderCV_sb2nov_Theme (1).pdf", external: true },
+  { id: "resume", label: "Resume", href: "/sujeet-iiitm-resume.pdf", external: true },
 ]
 
 export const SKILLS: Skill[] = [

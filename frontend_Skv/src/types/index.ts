@@ -19,7 +19,7 @@ export interface Projects {
   id: string
   title: string
   description: string
-  image: string
+  image: string[]
   link: string
   technologies : string[]
   featured: Boolean

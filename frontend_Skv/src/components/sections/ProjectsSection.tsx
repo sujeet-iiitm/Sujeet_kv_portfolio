@@ -55,7 +55,7 @@ export function ProjectsSection({ isVisible }: ProjectsSectionProps) {
             <Card className="overflow-hidden hover:shadow-2xl transition-all duration-300 hover:scale-105 bg-white/5 border-white/10">
               {/* Project Image/Video */}
               <div className="relative h-48 overflow-hidden">
-                {project.image.endsWith(".mp4") ? (
+                {project.image[0].endsWith(".mp4") ? (
                   <video
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                     autoPlay
@@ -63,11 +63,11 @@ export function ProjectsSection({ isVisible }: ProjectsSectionProps) {
                     muted
                     playsInline
                   >
-                    <source src={project.image} type="video/mp4" />
+                    <source src={project.image[0]} type="video/mp4" />
                   </video>
                 ) : (
                   <img
-                    src={project.image || "/placeholder.svg"}
+                    src={project.image[0] || "/placeholder.svg"}
                     alt={project.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                     onError={(e) => {

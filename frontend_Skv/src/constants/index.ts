@@ -40,34 +40,54 @@ export const SKILLS: Skill[] = [
 
 export const PROJECTS: Projects[] = [
   {
-    id: "project1",
+    id: "project-1",
+    title: "Real Time Currency Converter",
+    description:
+      "Built a real-time currency converter using third-party API integration Learnt and implemented API handling, React hooks, Tailwind CSS, and lottie-react animations",
+    image: ["/Screenshot (49).png",],
+    link: "https://github.com/sujeet-iiitm/currencyConverter",
+    technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "lottie-react"],
+    featured: true,
+  },
+  {
+    id: "project-2",
     title: "Portfolio Website",
     description:
-      "A modern, responsive portfolio website built with React, TypeScript, and Framer Motion. Features include smooth animations, 3D elements, and a contact form with SMTP integration.",
-    image: "/portfolio_skv.png",
+      "A modern, a portfolio website built with React, TypeScript, and Framer Motion. Features include smooth animations, 3D elements, and a contact form with SMTP integration.",
+    image: ["/portfolio_skv.png","/Screenshot (100).png"],
     link: "https://sujeet-kv-portfolio.vercel.app/",
     technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
     featured: true,
   },
   {
-    id: "project2",
+    id: "project-3",
     title: "Daily Notes Tracker",
     description:
       "A full-stack web application with user authentication for tracking daily note-taking practices. Built with modern web technologies and secure user management.",
-    image: "/notesTrackingImage.png",
+    image: ["/notetracker/Screenshot (215).png","/notetracker/Screenshot (217).png","/notetracker/Screenshot (218).png"],
     link: "https://github.com/sujeet-iiitm/noteTracker",
-    technologies: ["React", "Node.js", "MongoDB", "Express"],
+    technologies: ["React", "Node.js", "Express", "Postgres" , "Prisma" ,"monorepo" , "aws-EC2" , "Docker"],
     featured: true,
   },
-  {
-    id: "project3",
-    title: "This Section is Cooking",
-    description:"It is being cooked by the owner...",
-    image: "/Cooking.mp4",
-    link: "https://github.com/sujeet-iiitm/cooking-app",
-    technologies: ["React", "Video.js", "Firebase"],
-    featured: false,
-  },
+{
+  id: "project-4",
+  title: "noteTracker v4 — Notes & Password Manager",
+  description:
+    "The final evolution of noteTracker — now featuring a secure password management service! Store, manage, and access all your notes and passwords in one place. Every password is encrypted before being stored, ensuring complete privacy and security.",
+  image: ["/password-manager/Screenshot (233).png","/password-manager/Screenshot (234).png"],
+  link: "https://notestracker.sujeet.xyz",
+  technologies: ["React", "Node.js", "POSTGRES", "Encryption", "JWT"],
+  featured: true,
+},
+{ 
+  id: "project3",
+  title: "This Section is Cooking", 
+  description:"It is being cooked by the owner...", 
+  image: ["/Cooking.mp4",""], link: "https://github.com/sujeet-iiitm/cooking-app", 
+  technologies: ["React", "Video.js", "Firebase"], 
+  featured: false, 
+},
+
 ]
 
 export const MENU_ITEMS = [

@@ -8,7 +8,7 @@ export const PERSONAL_INFO: PersonalInfo = {
   email: "122333sujeet@gmail.com",
   phone: "+91 8539898838",
   location: "Bodh-Gaya, Bihar, India",
-  profileImage: "/skv_photo.jpg",
+  profileImage: "/sujeet-photo-diwali.jpeg",
 }
 
 export const NAVIGATION_ITEMS: NavigationItem[] = [
@@ -16,7 +16,7 @@ export const NAVIGATION_ITEMS: NavigationItem[] = [
   { id: "about", label: "About", href: "#about" },
   { id: "projects", label: "Projects", href: "#projects" },
   { id: "contact", label: "Contact Me", href: "#contact" },
-  { id: "resume", label: "Resume", href: "/sujeet-iiitm-resume.pdf", external: true },
+  { id: "resume", label: "Resume", href: "/sujeet-iiitm(2).pdf", external: true },
 ]
 
 export const SKILLS: Skill[] = [
@@ -36,6 +36,8 @@ export const SKILLS: Skill[] = [
   { id: "ddos", name: "DDos", icon: "🌊", category: "backend" },
   { id: "redis", name: "Redis Pub/Sub", icon: "📢", category: "backend" },
   { id: "monorepo", name: "Monorepo", icon: "📦", category: "tools" },
+  { id: "AI", name: "gemini-api", icon: "🕸️", category: "tools" },
+
 ]
 
 export const PROJECTS: Projects[] = [
@@ -43,8 +45,8 @@ export const PROJECTS: Projects[] = [
     id: "project-1",
     title: "Real Time Currency Converter",
     description:
-      "Built a real-time currency converter using third-party API integration Learnt and implemented API handling, React hooks, Tailwind CSS, and lottie-react animations",
-    image: ["/Screenshot (49).png",],
+      "Built a real-time currency converter using third-party APIs. Implemented API handling, React hooks, TypeScript, Tailwind CSS, and lottie-react animations for an interactive UI.",
+    image: ["/Screenshot (49).png"],
     link: "https://github.com/sujeet-iiitm/currencyConverter",
     technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "lottie-react"],
     featured: true,
@@ -53,8 +55,8 @@ export const PROJECTS: Projects[] = [
     id: "project-2",
     title: "Portfolio Website",
     description:
-      "A modern, a portfolio website built with React, TypeScript, and Framer Motion. Features include smooth animations, 3D elements, and a contact form with SMTP integration.",
-    image: ["/portfolio_skv.png","/Screenshot (100).png"],
+      "A modern portfolio website built with React and TypeScript. Features smooth animations, 3D elements, and a contact form with SMTP integration.",
+    image: ["/portfolio_skv.png", "/Screenshot (100).png"],
     link: "https://sujeet-kv-portfolio.vercel.app/",
     technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
     featured: true,
@@ -63,31 +65,42 @@ export const PROJECTS: Projects[] = [
     id: "project-3",
     title: "Daily Notes Tracker",
     description:
-      "A full-stack web application with user authentication for tracking daily note-taking practices. Built with modern web technologies and secure user management.",
-    image: ["/notetracker/Screenshot (215).png","/notetracker/Screenshot (217).png","/notetracker/Screenshot (218).png"],
+      "Full-stack notes tracker with user authentication for daily note-taking. Built with React, Node.js, Express, PostgreSQL and Prisma. Packaged in a monorepo and deployed to AWS EC2 using Docker.",
+    image: ["/notetracker/Screenshot (215).png", "/notetracker/Screenshot (217).png", "/notetracker/Screenshot (218).png"],
     link: "https://github.com/sujeet-iiitm/noteTracker",
-    technologies: ["React", "Node.js", "Express", "Postgres" , "Prisma" ,"monorepo" , "aws-EC2" , "Docker"],
+    technologies: ["React", "Node.js", "Express", "PostgreSQL", "Prisma", "Monorepo", "AWS-EC2", "Docker"],
     featured: true,
   },
-{
-  id: "project-4",
-  title: "noteTracker v4 — Notes & Password Manager",
-  description:
-    "The final evolution of noteTracker — now featuring a secure password management service! Store, manage, and access all your notes and passwords in one place. Every password is encrypted before being stored, ensuring complete privacy and security.",
-  image: ["/password-manager/Screenshot (233).png","/password-manager/Screenshot (234).png"],
-  link: "https://notestracker.sujeet.xyz",
-  technologies: ["React", "Node.js", "POSTGRES", "Encryption", "JWT"],
-  featured: true,
-},
-{ 
-  id: "project3",
-  title: "This Section is Cooking", 
-  description:"It is being cooked by the owner...", 
-  image: ["/Cooking.mp4",""], link: "https://github.com/sujeet-iiitm/cooking-app", 
-  technologies: ["React", "Video.js", "Firebase"], 
-  featured: false, 
-},
-
+  {
+    id: "project-4",
+    title: "noteTracker v4 — Notes & Password Manager",
+    description:
+      "The final evolution of noteTracker — now with a secure password manager. Store and manage notes and passwords in one place; every password is encrypted before storage to ensure privacy and security.",
+    image: ["/password-manager/Screenshot (233).png", "/password-manager/Screenshot (234).png"],
+    link: "https://notestracker.sujeet.xyz",
+    technologies: ["React", "Node.js", "PostgreSQL", "Encryption", "JWT"],
+    featured: true,
+  },
+  {
+    id: "project-5",
+    title: "AI Chatbot",
+    description:
+      "AI chatbot with JWT-based authentication. On login a JWT is issued and signed; a middleware validates the token before calling the LLM API. Requests with invalid tokens are rejected, preventing unauthorized API calls.",
+    image: ["/chatbot-1.png", "/chatbot-2.png","/chatbot-3.png"],
+    link: "https://dooper-ass-h7rz.vercel.app/",
+    technologies: ["React", "Node.js", "PostgreSQL", "Encryption", "JWT"],
+    featured: true,
+  },
+  {
+    id: "project-6",
+    title: "This Section is Cooking",
+    description:
+      "Work in progress — features and demos coming soon. Includes a demo video and a reference repository.",
+    image: ["/Cooking.mp4", ""],
+    link: "https://github.com/sujeet-iiitm/cooking-app",
+    technologies: ["React", "Video.js", "Firebase"],
+    featured: false,
+  },
 ]
 
 export const MENU_ITEMS = [
